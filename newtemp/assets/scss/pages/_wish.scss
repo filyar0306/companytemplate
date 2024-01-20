@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-image: url(/assets/scss/img/bg_3.jpg);
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+height: 100px;
+    .navdiv {
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .collapsediv {
+        width: 80%;
+        align-items: center;
+        justify-content: flex-end;
+
+        .collapseul {
+          li {
+           
+        a{
+          font-size: 13px;
+
+    letter-spacing: .2em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(221, 221, 221, 0.5);
+        }
+           
+          }
+        }
+      }
+    }
+  }
+}
+
+
+#wishlist{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    .myDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        img{
+          width: 100%;
+          border-radius: 10px;
+        }
+        h1{
+          font-size: 23px;
+        color: #ff7a5c;
+        font-weight: 600;
+        letter-spacing: 3px;
+        }
+        p{
+          font-size: 20px;
+        color: #000000;
+        font-weight: 400;
+        }
+        button{
+          background-color: #ffffff;
+          font-size: 16px;
+          font-weight: 500;
+          width: 150px;
+          height: 40px;
+          border: none;
+          border: none;
+          border-radius: 10px;
+        
+        }
+       }
+        
+}
+
+
+
+
+footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #222;
+  .footertext{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+    h1{
+      font-family: "Raleway", sans-serif;
+
+    font-size: 16px;
+    line-height: 1.6;
+    color: #b8b8b8;
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  footer{
+    .footertext{
+      flex-wrap: wrap;
+     
+    }
+  }
+    
+  }

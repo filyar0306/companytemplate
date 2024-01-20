@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: transparent;
+  position: fixed;
+}
+header .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+header .container .jevelinList {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container .jevelinList ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .container .jevelinList ul li {
+  list-style: none;
+  color: #f7f7f7;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 15px;
+}
+header .container button {
+  font-weight: 700;
+  border-radius: 25px;
+  width: 170px;
+  height: 50px;
+  border: none;
+  color: #ffffff;
+  background-color: #7d1eff;
+}
+header .container .dropdown {
+  display: none;
+}
+header .container .dropdown .dropdown-menu {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .container .dropdown .dropdown-menu li {
+  list-style: none;
+  color: #f7f7f7;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  header .container .jevelinList {
+    display: none;
+  }
+  header .container .dropdown {
+    display: block;
+  }
+}
+#single {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282829;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/scss/img/Ellipse-974-copy-3.png);
+}
+#single .singleText {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 700px;
+  gap: 30px;
+}
+#single .singleText h1 {
+  font-size: 70px;
+  font-weight: 700;
+  width: 80%;
+  color: #FFF;
+}
+#single .singleText h1 span {
+  font-size: 70px;
+  font-weight: 700;
+  color: #994FFF;
+}
+#single .singleText p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  text-transform: uppercase;
+}
+#single .singleTexts {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 700px;
+}
+#single .singleTexts img {
+  width: 90%;
+}
+
+#productSection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+#productSection .sectionText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+#productSection .sectionText h1 {
+  color: #994FFF;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#productSection #products {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  gap: 15px;
+}
+#productSection #products .myDiv {
+  width: 250px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+#productSection #products .myDiv img {
+  width: 80%;
+  border-radius: 50%;
+}
+#productSection #products .myDiv h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#productSection #products .myDiv .twobtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#productSection #products .myDiv .twobtn button {
+  border: none;
+  background-color: transparent;
+  color: #994FFF;
+  font-size: 16px;
+  font-weight: 600;
+}

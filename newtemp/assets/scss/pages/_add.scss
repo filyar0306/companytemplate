@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+background-color: #7d1eff;
+    .container{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      .jevelinList{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+      
+        ul{
+          width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        li{
+          list-style: none;
+        
+      color: #f7f7f7;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+      padding-top: 15px;
+        }
+        }
+      }
+      button{
+        font-weight: 700;
+        border-radius: 25px;
+       
+    width: 170px;
+    height: 50px;
+    border: none;
+        color: #ffffff;
+        background-color: #7d1eff;
+   
+      }
+      .dropdown{
+        display: none;
+        .dropdown-menu{
+          width: 100%;
+        flex-direction: column;
+          align-items: center;
+          justify-content: center; 
+          li{
+            list-style: none;
+          
+        color: #f7f7f7;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 15px;
+          }
+        }
+      }
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    header{
+      .container{
+        .jevelinList{
+          display: none;
+        }
+        .dropdown{
+          display: block;
+        }
+  
+      }
+    }
+  }
+
+
+
+  #formSections{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    #myform{
+        width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    input{
+        width: 250px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        border: 1px solid black;
+        padding-left: 10px;
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        border-radius: 20px; 
+        background-color: #7d1eff;
+        border: none;
+        color: #fff;
+        font-weight: 600;
+    }
+    }
+    #addPageDiv{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        tr{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            th{
+                width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            } 
+        }
+        .miniDiv{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+  }

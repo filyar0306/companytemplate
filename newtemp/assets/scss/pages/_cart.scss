@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+background-color: #7d1eff;
+  .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    .jevelinList{
+      width: 90%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+    
+      ul{
+        width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      li{
+        list-style: none;
+      
+    color: #f7f7f7;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 15px;
+      }
+      }
+    }
+    button{
+      font-weight: 700;
+      border-radius: 25px;
+     
+  width: 170px;
+  height: 50px;
+  border: none;
+      color: #ffffff;
+      background-color: #7d1eff;
+ 
+    }
+    .dropdown{
+      display: none;
+      .dropdown-menu{
+        width: 100%;
+      flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        li{
+          list-style: none;
+        
+      color: #f7f7f7;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 28px;
+      padding-top: 15px;
+        }
+      }
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 800px) {
+  header{
+    .container{
+      .jevelinList{
+        display: none;
+      }
+      .dropdown{
+        display: block;
+      }
+
+    }
+  }
+}
+
+
+  
+#customers{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   padding-top: 20px;
+    .myDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 250px;
+        padding-bottom: 20px;
+      padding-left: 20px;
+        img{
+          width: 100%;
+          border-radius: 10px;
+        }
+        h1{
+          font-size: 23px;
+        color: #ff7a5c;
+        font-weight: 600;
+        letter-spacing: 3px;
+        }
+        p{
+          font-size: 20px;
+        color: #000000;
+        font-weight: 400;
+        }
+        button{
+          background-color: #ffffff;
+          font-size: 16px;
+          font-weight: 500;
+          width: 150px;
+          height: 40px;
+          border: none;
+        
+          border-radius: 10px;
+        
+        }
+       }
+        
+}
+
+
